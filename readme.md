@@ -23,18 +23,8 @@ Demi kelancaran pengerjaan project UTS praktikum pemrograman web lanjut ini diha
 3. Clone project `uts-web` ke komputer / laptop yang akan digunakan untuk mengerjakan UTS.
 4. Buka terminal, masuk kedalam direktori `uts-web`.
 5. Jalankan `composer install` untuk mengunduh setiap dependency yang dibutuhkan Laravel.
-6. Buat database mysql dengan nama `uts_web`.
-7. Edit file `.env` (copy dari file `.env.example`)
-
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=uts_web
-        DB_USERNAME=user_mysql
-        DB_PASSWORD=password_mysql
-
-8. Jalankan `php artisan migrate` untuk menginstall tabel yang disediakan.
-9. Jalankan `php artisan serve` untuk mengaktifkan internal web server Laravel.
-10. Buka web browser dan akses alamat `http://localhost:8000`.
+6. Jalankan `php artisan serve` untuk mengaktifkan internal web server Laravel.
+7. Buka web browser dan akses alamat `http://localhost:8000`.
 
 ## Apa yang harus dikerjakan untuk UTS ini?
 
@@ -46,17 +36,10 @@ Berikut ini adalah daftar tugas yang harus dikerjakan untuk UTS pemrograman web 
 
 2. Tampilkan setiap data inventaris barang yang ada di dalam database kedalam bentuk tabel seperti yang dicontohkan pada halaman [daftar inventaris barang](http://localhost:8000).
 
-    ![Inventory List](http://s12.postimg.org/912kw6a3h/inventory_list.png)
+    ![Inventory List](http://s10.postimg.org/kr61h658p/inventory_list.png)
 
 3. Tampilkan detail setiap inventaris barang pada saat link barang di klik. silahkan gunakan mekanisme `route parameter` seperti yang ada di [dokumentasi](https://laravel.com/docs/5.2/controllers#basic-controllers) Laravel.
-
-    ![Inventory Detail](http://s27.postimg.org/v29ppfbsj/inventory_detail.png)
 
 ## Mekanisme pengumpulan UTS
 
 Mekanisme pengumpulan dan penilaian akan dilakukan dari repository Github.com. Untuk melakukan pengumpulan UTS kali ini silahkan buka terminal, commit pekerjaan anda dengan menggunakan perintah `git add --all` kemudian `git commit -m "pengumpulan UTS"` dan `git push origin master`.
-
-Catatan:
-
-1. Jangan lupa untuk mendaftarkan akun Github anda di [thread UTS ini](http://elen.nurulfikri.ac.id/mod/forum/discuss.php?d=12).
-2. Jika terdapat masalah dalam pengerjaan UTS, silahkan laporkan di [thread UTS ini](http://elen.nurulfikri.ac.id/mod/forum/discuss.php?d=13)
